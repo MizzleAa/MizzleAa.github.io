@@ -2,8 +2,8 @@
 	{
 		"slug": "Project Slug",
 		"name": "Project Title",
-		"image": "placeholder.jpg",
-		"url": "https://github.io/mizzleaa",
+		"image": "sample.png",
+		"url": "https://mizzleaa.github.io/python/2021/04/17/python.html",
 		"date": "2021.04",
 		"tags": ["Python"]
 	}
