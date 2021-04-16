@@ -1,10 +1,10 @@
 [
 	{
-		"slug": "Project Slug",
+		"slug": "Project_Slug",
 		"name": "Project Title",
 		"image": "sample.png",
 		"url": "#",
 		"date": "2021.04",
-		"tags": ["Python"]
+		"tags": ["python"]
 	}
 ]

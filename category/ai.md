@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: ai
-title: AI
+title: ai
 permalink: /category/ai
 ---

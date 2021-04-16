@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
 categories: django
-title: Django
+title: django
 permalink: /category/django
 ---
