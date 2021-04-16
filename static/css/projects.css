@@ -67,7 +67,7 @@ span.tag-cloud {
   display: inline;
 }
 .tag-cloud.active {
-  background: #ececec;
+  background: #90CAF9;
 }
 .project-item.not-show {
   display: none;
