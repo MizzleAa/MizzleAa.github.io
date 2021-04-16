@@ -35,6 +35,8 @@ urls:
       url: /about/
     - text: Projects
       url: /projects/
+    - text: Category
+      url: /category/
 
 url: "https://mizzleaa.github.io"
 baseurl: ""
