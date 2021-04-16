@@ -1,9 +1,9 @@
 [
 	{
-		"slug": "cool-project",
-		"name": "Cool project 1",
+		"slug": "Project Slug",
+		"name": "Project Title",
 		"image": "placeholder.jpg",
-		"url": "https://github.com/MizzleAa",
+		"url": "https://github.io/mizzleaa",
 		"date": "2021.04",
 		"tags": ["Python"]
 	}
