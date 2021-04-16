@@ -3,8 +3,24 @@
 		"slug": "Project_Slug",
 		"name": "Project Title",
 		"image": "sample.png",
-		"url": "#",
+		"url": "",
 		"date": "2021.04",
 		"tags": ["python"]
+	},
+	{
+		"slug": "Project_Slug",
+		"name": "Project Title",
+		"image": "sample.png",
+		"url": "",
+		"date": "2021.04",
+		"tags": ["ai"]
+	},
+	{
+		"slug": "Project_Slug",
+		"name": "Project Title",
+		"image": "sample.png",
+		"url": "",
+		"date": "2021.04",
+		"tags": ["django"]
 	}
 ]
