@@ -23,7 +23,7 @@ input#js-search__input {
   display: none;
 }
 .search__results > li {
-  border-top: 1px solid #f0f0f0;
+  border-top: 1px solid #767676;
 }
 .search__results > li > a {
   display: block;
