@@ -59,6 +59,7 @@ span.tags:last-child {
   margin: 0 0 25px 0;
 }
 span.tag-cloud {
+  color:#F8F8F8;
   margin: 0 2px;
   cursor: pointer;
   font-size: 75%;
