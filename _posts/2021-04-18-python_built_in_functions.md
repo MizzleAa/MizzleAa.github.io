@@ -4,7 +4,9 @@ title:  "python built-in function"
 date:   2021-04-18 10:25:00 +0000
 categories: [python]
 ---
-Python built-in function 정리(중)
+### Python built-in function 정리
+#### version : 3.7.5
+
 {% highlight python %}
 
 ################################################

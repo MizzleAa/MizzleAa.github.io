@@ -4,7 +4,9 @@ title:  "python magic method"
 date:   2021-04-18 10:20:00 +0000
 categories: [python]
 ---
-Python Magic Method 정리
+### Python Magic Method 정리
+#### version : 3.7.5
+
 {% highlight python %}
 
 class Foo:
