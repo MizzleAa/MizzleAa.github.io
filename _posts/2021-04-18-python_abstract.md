@@ -6,8 +6,8 @@ categories: [python]
 ---
 ### Python abstract 정리
 #### version : 3.7.5
-{% highlight python %}
 
+```python
 class Vector(metaclass=ABCMeta):
     '''
         추상 메소드 정의
@@ -94,7 +94,6 @@ c = a+b
 print(f"a.up -> a.left = {a.position()}")
 print(f"b.down -> b.right = {b.position()}")
 print(f"a + b = {c.position()}")
-
-{% endhighlight %}
+```
 
 

@@ -7,7 +7,7 @@ categories: [python]
 ### Python built-in function 정리
 #### version : 3.7.5
 
-{% highlight python %}
+```python
 
 ################################################
 # docs 
@@ -606,6 +606,4 @@ def fun():
 
 # fun() #실행함수
 
-{% endhighlight %}
-
-
+```

@@ -7,8 +7,7 @@ categories: [python]
 ### Python Magic Method 정리
 #### version : 3.7.5
 
-{% highlight python %}
-
+```python
 class Foo:
     #Magic Method 정리
     
@@ -120,5 +119,4 @@ print(f"__delattr__ 형식 반환 : {delattr(foo, 'val')}")
 print(f"지워진 후 상태 확인 : {foo.val}")
 
 print(dir(foo))
-
-{% endhighlight %}
+```
