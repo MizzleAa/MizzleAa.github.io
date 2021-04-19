@@ -25,16 +25,16 @@ categories: [python, ai, install]
 + 작성자 환경 : stable(1.8.1) > Windows > Pip > Python > CUDA 11.1
     >pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 
-### 5. 가상환경(venv) 생성 
+#### 5. 가상환경(venv) 생성 
 + 프로잭트 생성 위치 or 가상환경 관리 위치
     > python -m venv venv  
     > venv\Scripts\activate  
     > python -m pip install --upgrade pip  
 
-### 6. 4.의 "pip3 ~" 문구 내용을 콘솔에 붙여 넣기
+#### 6. 4.의 "pip3 ~" 문구 내용을 콘솔에 붙여 넣기
 + 완료 때 까지 시간 소요
 
-### 7. pytorch 동작 확인 예제 코드 : https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html
+#### 7. pytorch 동작 확인 예제 코드 : https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html
 
 
 ```python
