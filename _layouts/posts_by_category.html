@@ -11,9 +11,9 @@ layout: default
     {% capture category_slug %}{{ category | first }}{% endcapture %}
     {% for c_slug in category_slug %}
       {% if c_slug == page.categories %}
-        <button class="btn btn-sm btn-default active btn-tags">{{ c_slug }}</button>
+        <span class="tag-filter tag-cloud active">{{ c_slug }}</span>
       {% else %}
-        <a href="/category/{{ c_slug }}" class="btn btn-sm btn-default btn-tags">{{ c_slug }}</a>
+        <span href="/category/{{ c_slug }}" class="tag-filter tag-cloud">{{ c_slug }}</span>
       {% endif %}
     {% endfor %}
   {% endfor %}
