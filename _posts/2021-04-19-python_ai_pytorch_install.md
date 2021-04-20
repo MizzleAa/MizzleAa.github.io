@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "python ai pytorch install"
-date: 2021-04-18 21:00:00 +0000
+date: 2021-04-19 21:00:00 +0000
 categories: [python, ai, install]
 ---
 
