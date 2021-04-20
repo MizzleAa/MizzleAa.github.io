@@ -1,6 +1,6 @@
 [
 	{
-		"slug": "Project_Slug",
+		"slug": "Project_Slug_1",
 		"name": "Project Title",
 		"image": "sample.png",
 		"url": "",
@@ -8,7 +8,7 @@
 		"tags": ["python"]
 	},
 	{
-		"slug": "Project_Slug",
+		"slug": "Project_Slug_2",
 		"name": "Project Title",
 		"image": "sample.png",
 		"url": "",
@@ -16,7 +16,7 @@
 		"tags": ["ai"]
 	},
 	{
-		"slug": "Project_Slug",
+		"slug": "Project_Slug_3",
 		"name": "Project Title",
 		"image": "sample.png",
 		"url": "",
