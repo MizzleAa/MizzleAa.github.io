@@ -3,7 +3,7 @@
 		"slug": "Project_Slug_1",
 		"name": "Project Title 1",
 		"image": "sample.png",
-		"url": "",
+		"url": "/category/python",
 		"date": "2021.04",
 		"tags": ["python"]
 	},
@@ -11,7 +11,7 @@
 		"slug": "Project_Slug_2",
 		"name": "Project Title 2",
 		"image": "sample.png",
-		"url": "",
+		"url": "/category/ai",
 		"date": "2021.04",
 		"tags": ["ai"]
 	},
