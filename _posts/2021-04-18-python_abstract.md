@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "python abstract"
-date:   2021-04-18 10:20:00 +0000
+title: "python abstract"
+date: 2021-04-18 10:20:00 +0000
 categories: [python]
 ---
+
 ### Python abstract 정리
+
 #### version : 3.7.5
+
+---
 
 ```python
 class Vector(metaclass=ABCMeta):
@@ -37,7 +41,7 @@ class Vector(metaclass=ABCMeta):
         pass
 
 class Keyboard(Vector):
-    
+
     def __init__(self, step=1):
         '''
             2차원 공간좌표를 dict형태로 표현(예시를 위한 데이터)
@@ -45,7 +49,7 @@ class Keyboard(Vector):
         '''
         self.__point = {'x':0,'y':0}
         self.__step = step
-        
+
     def up(self):
         self.__point['y'] += self.__step
 
@@ -57,7 +61,7 @@ class Keyboard(Vector):
 
     def left(self):
         self.__point['x'] -= self.__step
-    
+
     def __position(self, point):
         '''
             private
@@ -95,5 +99,3 @@ print(f"a.up -> a.left = {a.position()}")
 print(f"b.down -> b.right = {b.position()}")
 print(f"a + b = {c.position()}")
 ```
-
-

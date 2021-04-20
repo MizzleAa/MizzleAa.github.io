@@ -7,10 +7,12 @@ categories: [python, ai, install]
 
 ### Python Pytorch Install with GPU
 
+#### version : 3.7.5
+
 - 해당 기준은 python을 기준으로 설치하는 버전입니다.
 - conda를 사용하지 않았으며, 가상환경 생성을 통해 해당 python package를 설치합니다.
 
-#### python : 3.7.5
+---
 
 #### 1. gpu : <https://en.wikipedia.org/wiki/CUDA#Version_features_and_specifications>
 

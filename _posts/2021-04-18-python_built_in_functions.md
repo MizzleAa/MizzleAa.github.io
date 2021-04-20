@@ -1,16 +1,20 @@
 ---
 layout: post
-title:  "python built-in function"
-date:   2021-04-18 10:25:00 +0000
+title: "python built-in function"
+date: 2021-04-18 10:25:00 +0000
 categories: [python]
 ---
+
 ### Python built-in function 정리
+
 #### version : 3.7.5
+
+---
 
 ```python
 
 ################################################
-# docs 
+# docs
 # = 숫자의 절댓값을 돌려줍니다. 인자는 정수, 실수 또는 __abs__()를 구현하는 객체입니다. 인자가 복소수면 그 크기가 반환됨
 # abs(x)
 # = 절대값
@@ -43,7 +47,7 @@ def fun():
 ################################################
 # any(iterable)
 # = iterable 의 요소 중 어느 하나라도 참이면 True 를 돌려줍니다. iterable이 비어 있으면 False 를 돌려줌
-# iterable = [1,2,None] 
+# iterable = [1,2,None]
 
 def fun():
     def any(iterable):
@@ -60,8 +64,8 @@ def fun():
 
 ################################################
 # ascii(object)
-# repr() 처럼, 객체의 인쇄 가능한 표현을 포함하는 문자열을 반환하지만, 
-# '\x' 나 '\u' 또는 '\U' 이스케이프를 사용하여 repr() 이 돌려주는 문자열에 포함된 비 ASCII 문자를 이스케이프 
+# repr() 처럼, 객체의 인쇄 가능한 표현을 포함하는 문자열을 반환하지만,
+# '\x' 나 '\u' 또는 '\U' 이스케이프를 사용하여 repr() 이 돌려주는 문자열에 포함된 비 ASCII 문자를 이스케이프
 # 이것은 파이썬 2의 repr() 이 돌려주는 것과 비슷한 문자열 생성
 # '\x01', '\u0001', '\U00000001' 자리수
 
@@ -69,14 +73,14 @@ def fun():
     object = "\x01"
     object = "\u0001"
     object = "\U00000001"
-    
+
     foo = ascii(object)
     print(f"obejct = {object}")
     print(f"foo={foo}")
 
 ################################################
 # bin(x)
-# 정수를 《0b》 가 앞에 붙은 이진 문자열로 변환 
+# 정수를 《0b》 가 앞에 붙은 이진 문자열로 변환
 # x 가 파이썬 int 객체가 아니라면, 정수를 돌려주는 __index__() 메서드를 정의
 
 def fun():
@@ -97,7 +101,7 @@ def fun():
     print(f"bool(True)={bar}")
 
 ################################################
-# breakpoint 
+# breakpoint
 # 이 함수는 호출 지점에서 디버거로 진입하게 만듬
 # 특히 sys.breakpointhook() 을 호출하고 args 와 kws 를 그대로 전달
 
@@ -240,7 +244,7 @@ def fun():
 def fun():
     foo = dict()
     foo.update( {'val1':1,'val2':2} )
-    
+
     print(f"foo['val1'] = {foo['val1']}")
     print(f"foo.get('val1') = {foo.get('val1')}")
 
@@ -275,7 +279,7 @@ def fun():
 
 ################################################
 # enumerate
-# 열거 객체를 돌려줌 
+# 열거 객체를 돌려줌
 # iterable 은 시퀀스, 이터레이터 또는 이터레이션을 지원하는 다른 객체
 def fun():
     seasons = ['Spring', 'Summer', 'Fall', 'Winter']
@@ -307,7 +311,7 @@ def fun():
 ################################################
 # exec(str,dict)
 # 모든 경우에, 선택적 부분을 생략하면, 현재 스코프에서 코드가 실행
-# 
+#
 def fun():
     val = {"val":5, "foo":0}
     exec("foo = val + 4",val)
@@ -316,7 +320,7 @@ def fun():
 ################################################
 # filter(function, iterable)
 # function 이 참을 돌려주는 iterable 의 요소들로 이터레이터를 구축
-#  iterable 은 시퀀스, 이터레이션을 지원하는 컨테이너 또는 이터레이터 
+#  iterable 은 시퀀스, 이터레이션을 지원하는 컨테이너 또는 이터레이터
 
 def fun():
     val = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -346,7 +350,7 @@ def fun():
     print(f"float('+1e6') = {val}")
     val = float('-infinity')
     print(f"float('-infinity') = {val}")
-      
+
 ################################################
 # format
 # format_spec 의 제어에 따라, value 를 《포맷된》 표현으로 변환
@@ -363,7 +367,7 @@ def fun():
 # set과 동일한데 set보다 우성
 
 def fun():
-    val = frozenset() 
+    val = frozenset()
     print(f"frozenset() = {val}")
     val = frozenset((0, 1, 2, 3, 1, 2, 3))
     print(f"frozenset((0, 1, 2, 3)) = {val}")
@@ -396,13 +400,13 @@ def fun():
 
 def fun():
     #def fun를 없에고 수행 x = 10
-    x = 20 
+    x = 20
     print(f"x = {x}")
     def foo():
         global x
         x = 10
-    print(f"global x = {x}")    
-        
+    print(f"global x = {x}")
+
 ################################################
 # hasattr(object, name)
 # 인자는 객체와 문자열
@@ -416,7 +420,7 @@ def fun():
     foo = Foo()
     val = hasattr(foo,'val') #true
     #val = hasattr(foo,'aa') #false
-    
+
     print(f"hasattr(foo,'val') = {val}")
 
 ################################################
@@ -433,9 +437,9 @@ def fun():
 ################################################
 # help([object])
 # 내장 도움말 시스템을 호출
-# 
+#
 def fun():
-    
+
     val = 10
     class Foo:
         """
@@ -468,7 +472,7 @@ def fun():
     print(f"id({val}) = {id(val)}")
     val = val + 1
     print(f"id({val}) = {id(val)}")
-    
+
 ################################################
 # input([prompt])
 # prompt 인자가 있으면, 끝에 개행 문자를 붙이지 않고 표준 출력
@@ -496,11 +500,11 @@ def fun():
 
     val = isinstance(1.2,int)
     print(f"isinstance(1.2,int) = {val}")
-    
+
     class Foo:
         def __init__(self):
             pass
-    
+
     foo = Foo()
     val = isinstance(foo,Foo)
     print(f"isinstance(foo,Foo) = {val}")

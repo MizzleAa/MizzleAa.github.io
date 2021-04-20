@@ -1,16 +1,20 @@
 ---
 layout: post
-title:  "python magic method"
-date:   2021-04-18 10:20:00 +0000
+title: "python magic method"
+date: 2021-04-18 10:20:00 +0000
 categories: [python]
 ---
+
 ### Python Magic Method 정리
+
 #### version : 3.7.5
+
+---
 
 ```python
 class Foo:
     #Magic Method 정리
-    
+
     def __new__(cls):
         '''
         1. 개채 생성
@@ -34,7 +38,7 @@ class Foo:
         객체가 소멸시 수행해야 할 일을 지정, 내부 레퍼런스 카운터가 0이되면 자동 소멸
         '''
         print(f"last : __del__(self)")
-    
+
     def __str__(self):
         '''
         클래스 객채를 표현하는 수단 : __repr__과 동시선언되어 있다면 우선권이 있음
@@ -43,7 +47,7 @@ class Foo:
         '''
         print(f"in : __str__")
         val = f"__str__() : Foo Class"
-        
+
         return val
 
     def __repr__(self):
@@ -54,7 +58,7 @@ class Foo:
         '''
         print(f"in : __repr__")
         val = f"{self.val}"
-        
+
         return val
 
     def __bytes__(self):
@@ -75,7 +79,7 @@ class Foo:
 
     def __getattr__(self, name):
         '''
-        객체의 없는 속성을 참조하려 할때 호출, 
+        객체의 없는 속성을 참조하려 할때 호출,
         일반적으로 찾는 속성이 있다면 호출되지 않음
         '''
         print(f"in : __getattr__ Not Found : {name}")
@@ -87,14 +91,14 @@ class Foo:
         '''
         print(f"in : Set Attribute : {name}:{value}")
         super().__setattr__(name, value)
-        
+
     def __delattr__(self, name):
         '''
         객체의 속성을 del키워드로 지울 때 호출
         '''
         print(f"in : __delattr__ : {name}")
         return super().__delattr__(name)
-    
+
     def __dir__(self):
         '''
         객체의 가지고있는 속성을 보여줌
