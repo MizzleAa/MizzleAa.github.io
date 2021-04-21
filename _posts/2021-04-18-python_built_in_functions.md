@@ -7,7 +7,7 @@ categories: [python]
 
 ### Python built-in function 정리
 
-#### version : 3.7.5
+#### python : 3.7.5
 
 ---
 

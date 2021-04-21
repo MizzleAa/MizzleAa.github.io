@@ -2,12 +2,12 @@
 layout: post
 title: "python ai pytorch install"
 date: 2021-04-19 21:00:00 +0000
-categories: [python, ai, install]
+categories: [python, pytorch, ai, install]
 ---
 
 ### Python Pytorch Install with GPU
 
-#### version : 3.7.5
+#### python : 3.7.5
 
 - 해당 기준은 python을 기준으로 설치하는 버전입니다.
 - conda를 사용하지 않았으며, 가상환경 생성을 통해 해당 python package를 설치합니다.
