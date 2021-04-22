@@ -2,7 +2,7 @@
 layout: post
 title: "python abstract"
 date: 2021-04-18 10:20:00 +0000
-categories: [python]
+categories: [python, code]
 ---
 
 ### Python abstract 정리

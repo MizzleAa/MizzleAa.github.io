@@ -2,7 +2,7 @@
 layout: post
 title: "python built-in function"
 date: 2021-04-18 10:25:00 +0000
-categories: [python]
+categories: [python, code]
 ---
 
 ### Python built-in function 정리

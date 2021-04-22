@@ -2,7 +2,7 @@
 layout: post
 title: "pytorch tutorial"
 date: 2021-04-21 16:00:00 +0000
-categories: [python, pytorch, ai]
+categories: [python, pytorch, ai, code]
 ---
 
 ### Pytorch tutorial
