@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: theory
-title: theory
-permalink: /category/theory
+categories: ai
+title: ai
+permalink: /category/ai
 ---
