@@ -11,6 +11,8 @@ categories: [python, pytorch, ai, code]
 
 #### torch : 1.8.1+cu111
 
+---
+
 ```python
 
 import torchvision

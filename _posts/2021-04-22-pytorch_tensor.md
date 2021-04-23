@@ -11,7 +11,7 @@ categories: [python, pytorch, ai, code]
 
 #### torch : 1.8.1+cu111
 
-> 전채적인 함수 형태는 numpy와 동일한게 많음
+---
 
 ```python
 
