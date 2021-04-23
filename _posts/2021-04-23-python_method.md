@@ -50,7 +50,6 @@ class Foo:
 foo = Foo
 print(foo.x, foo._x)
 # print(foo.__x)  # AttributeError: type object 'Foo' has no attribute '__x'
-
 # print(foo.y, foo._y, foo.__y) # AttributeError: type object 'Foo' has no attribute 'y'
 
 print(foo.instance_method)
