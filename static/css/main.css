@@ -37,7 +37,8 @@ a, a:link, a:active {
 }
 a:hover {
   color: #B3B3B3;
-  text-decoration: underline;
+  font-weight: bold;
+  /*text-decoration: underline;*/
 }
 
 /* Layout */
