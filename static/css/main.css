@@ -153,7 +153,7 @@ div.col-sm-3 div.profile-about {
 }
 
 /* Responsive Conditional */
-@media (min-width: 1024px) {
+@media (min-width: 993px) {
   .fixed-condition {
     position: fixed;
     max-width: 250px;
