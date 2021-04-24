@@ -5,7 +5,7 @@ date: 2021-04-22 16:00:00 +0000
 categories: [python, pytorch, ai, code]
 ---
 
-### Pytorch tutorial
+### Pytorch tensor
 
 #### python : 3.7.5
 
