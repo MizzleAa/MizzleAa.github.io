@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "pytorch tensor"
+title: "pytorch tensorboard"
 date: 2021-04-22 16:00:00 +0000
 categories: [python, pytorch, tensorboard, ai, code]
 ---
 
-### Pytorch tutorial
+### Pytorch tensorboard
 
 #### python : 3.7.5
 
