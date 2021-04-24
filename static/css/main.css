@@ -152,13 +152,6 @@ div.col-sm-3 div.profile-about {
   max-width: 100%
 }
 
-/* Responsive Conditional */
-@media (min-width: 993px) {
-  .fixed-condition {
-    position: fixed;
-    max-width: 250px;
-  }
-}
 @media (max-width: 768px) {
   div.col-sm-3 {
     margin-top: 30px;
