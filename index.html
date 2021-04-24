@@ -14,8 +14,8 @@ layout: default
 
   <!-- Pagination links -->
   {% if paginator.total_pages > 1 %}
-  <nav aria-label="Page navigation example">
-    <ul class="pagination pagination-sm justify-content-center">
+  <nav class="text-center" aria-label="navigation">
+    <ul class="pagination pagination-sm">
       {% if paginator.previous_page %}
         <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
       {% else %}
