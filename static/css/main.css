@@ -156,7 +156,7 @@ div.col-sm-3 div.profile-about {
 @media (min-width: 1024px) {
   .fixed-condition {
     position: fixed;
-    max-width: 255px;
+    max-width: 250px;
   }
 }
 @media (max-width: 768px) {
