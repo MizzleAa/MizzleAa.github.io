@@ -45,7 +45,7 @@ a:hover {
   background: #2a2a2a;
 }
 .sidebar-nav {
-  margin: 0;
+  margin: 20px;
   padding: 0;
   font-size: 14px;
 }
@@ -72,10 +72,6 @@ div.content pre {
 footer {
   border-top: 1px solid #767676;
   width: 100%;
-  height: 10px;
-  margin-top: 10px;
-  margin-bottom: 3em;
-  padding-top: 10px;
   font-size: 11px;
   bottom: 0;
   padding-bottom: 10px;
@@ -99,7 +95,10 @@ div.col-sm-3 div.profile-about {
   margin-top: 10px;
   color: #ACACAC;
 }
-
+/* home */
+.home{
+  padding: 20px;
+}
 /* Pagination */
 .PageNavigation {
   font-size: 14px;
