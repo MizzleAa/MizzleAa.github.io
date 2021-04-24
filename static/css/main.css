@@ -43,6 +43,7 @@ a:hover {
 /* Layout */
 .main-layout {
   background: #2a2a2a;
+  padding:20px;
 }
 .sidebar-nav {
   margin: 20px;
@@ -97,7 +98,7 @@ div.col-sm-3 div.profile-about {
 }
 /* home */
 .home{
-  padding: 20px;
+  /*padding: 20px;*/
 }
 /* Pagination */
 .PageNavigation {
