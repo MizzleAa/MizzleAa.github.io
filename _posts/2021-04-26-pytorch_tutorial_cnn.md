@@ -19,31 +19,31 @@ categories: [python, pytorch, ai, code]
 ```
   2. 영상 파일 [다운로드](https://www.cis.upenn.edu/~jshi/ped_html/PennFudanPed.zip)
   3. git에서 추가 파일 [다운로드](https://github.com/pytorch/vision/archive/refs/heads/master.zip) or git clone https://github.com/pytorch/vision.git
-     - vision/references/detection의 폴더를 복사
-     - 실행할 파일(pytorch_cnn.py)의 경로에 붙여 넣기  
+  - vision/references/detection의 폴더를 복사
+  - 실행할 파일(pytorch_cnn.py)의 경로에 붙여 넣기  
 ```
-    │ pytorch_cnn.py
-    └─vision
-        └─references
-            └─detection
-                    coco_eval.py
-                    coco_utils.py
-                    engine.py
-                    group_by_aspect_ratio.py
-                    presets.py
-                    train.py
-                    transforms.py
-                    utils.py
+  │ pytorch_cnn.py
+  └─vision
+    └─references
+      └─detection
+        │ coco_eval.py
+        │ coco_utils.py
+        │ engine.py
+        │ group_by_aspect_ratio.py
+        │ presets.py
+        │ train.py
+        │ transforms.py
+        │ utils.py
 ```
   4. 파일 수정( coco_eval.py, coco_utils.py, engine.py, presets.py, train.py의 import 부분)
 ```
-    import utils => from . import utils
-    import transforms as T => from . import transforms as T
-    import presets = > from . import presets
-    from coco_utils => from .coco_utils
-    from coco_eval => from .coco_eval
-    from group_by_aspect_ratio => from .group_by_aspect_ratio
-    from engine => from .engine
+  import utils => from . import utils
+  import transforms as T => from . import transforms as T
+  import presets = > from . import presets
+  from coco_utils => from .coco_utils
+  from coco_eval => from .coco_eval
+  from group_by_aspect_ratio => from .group_by_aspect_ratio
+  from engine => from .engine
 ```
   5. 실행
 
