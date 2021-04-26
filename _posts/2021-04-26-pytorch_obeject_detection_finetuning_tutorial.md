@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "pytorch tutorial cnn"
+title: "pytorch obeject detection finetuning tutorial"
 date: 2021-04-26 23:30:00 +0000
 categories: [python, pytorch, ai, code]
 ---
 
-### Pytorch tutorial cnn
+### pytorch obeject detection finetuning tutorial
 
 #### python : 3.7.5
 
