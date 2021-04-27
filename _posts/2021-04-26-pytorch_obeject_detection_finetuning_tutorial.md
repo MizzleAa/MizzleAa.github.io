@@ -22,8 +22,8 @@ categories: [python, pytorch, ai, code]
   - vision/references/detection의 폴더를 복사
   - 실행할 파일(pytorch_cnn.py)의 경로에 붙여 넣기  
 ```
-  │ pytorch_cnn.py
-  └─vision
+ │ pytorch_cnn.py
+ └─vision
     └─references
       └─detection
         │ coco_eval.py
