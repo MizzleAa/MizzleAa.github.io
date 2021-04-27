@@ -15,7 +15,7 @@ categories: [python, pytorch, ai, code]
   
   1. 가상환경(venv)에 pycocotools를 설치
 ```
-    pip install pycocotools
+pip install pycocotools
 ```
   2. 영상 파일 [다운로드](https://www.cis.upenn.edu/~jshi/ped_html/PennFudanPed.zip)
   3. git에서 추가 파일 [다운로드](https://github.com/pytorch/vision/archive/refs/heads/master.zip) or git clone https://github.com/pytorch/vision.git
