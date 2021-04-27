@@ -22,18 +22,18 @@ pip install pycocotools
   - vision/references/detection의 폴더를 복사
   - 실행할 파일(pytorch_cnn.py)의 경로에 붙여 넣기  
 ```
- │ pytorch_cnn.py
- └─vision
-    └─references
-      └─detection
-        │ coco_eval.py
-        │ coco_utils.py
-        │ engine.py
-        │ group_by_aspect_ratio.py
-        │ presets.py
-        │ train.py
-        │ transforms.py
-        │ utils.py
+│ pytorch_cnn.py
+└─vision
+  └─references
+    └─detection
+      │ coco_eval.py
+      │ coco_utils.py
+      │ engine.py
+      │ group_by_aspect_ratio.py
+      │ presets.py
+      │ train.py
+      │ transforms.py
+      │ utils.py
 ```
   4. 파일 수정( coco_eval.py, coco_utils.py, engine.py, presets.py, train.py의 import 부분)
 ```
