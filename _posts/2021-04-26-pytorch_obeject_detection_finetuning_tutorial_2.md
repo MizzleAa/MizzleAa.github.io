@@ -94,7 +94,7 @@ categories: [python, pytorch, ai, code]
   ~~~
 
   - import 수정( coco_eval.py, coco_utils.py, engine.py, presets.py, train.py )  
-  
+
   ```
     import utils => from . import utils
     import transforms as T => from . import transforms as T
@@ -111,6 +111,7 @@ categories: [python, pytorch, ai, code]
 4. Run : python run.py
 
 5. Result  
+
   - image  
     ![result_15](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15.png?raw=true)  
     
