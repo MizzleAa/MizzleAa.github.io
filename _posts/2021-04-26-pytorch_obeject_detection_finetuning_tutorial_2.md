@@ -43,12 +43,7 @@ categories: [python, pytorch, ai, code]
 
 2. Setting
   - 가상환경(venv) 파일 수정
-    - venv\lib\site-packages\torchvision\models\detection\faster_rcnn.py
-    - venv\lib\site-packages\torchvision\models\detection\mask_rcnn.py
-
-  - import 수정 
-
-2. 1) faster_rcnn.py 수정  
+    - venv\lib\site-packages\torchvision\models\detection\faster_rcnn.py  
 
   ~~~python
   ###################
@@ -73,7 +68,7 @@ categories: [python, pytorch, ai, code]
       return model
   ~~~
 
-2. 2) mask_rcnn.py 수정  
+    - venv\lib\site-packages\torchvision\models\detection\mask_rcnn.py  
 
   ~~~python
 
@@ -98,7 +93,8 @@ categories: [python, pytorch, ai, code]
 
   ~~~
 
-2. 3) detection의 import수정( coco_eval.py, coco_utils.py, engine.py, presets.py, train.py )
+  - import 수정( coco_eval.py, coco_utils.py, engine.py, presets.py, train.py )  
+  
   ```
     import utils => from . import utils
     import transforms as T => from . import transforms as T
