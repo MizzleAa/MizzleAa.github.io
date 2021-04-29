@@ -102,9 +102,9 @@ def maskrcnn_resnet_fpn(net='resnet50', pretrained=False, progress=True,
 3 [git repository](https://github.com/MizzleAa/Faster_Mask_RCNN)  
 4 Run : python run.py  
 5 Result  
-- image
+  image  
 ![result_15](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15.png?raw=true)  
-- masks
+  masks  
 ![result_15_0](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_0.png?raw=true)  
 ![result_15_1](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_1.png?raw=true)  
 ![result_15_2](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_2.png?raw=true)  
