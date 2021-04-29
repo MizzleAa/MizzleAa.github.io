@@ -50,14 +50,14 @@ categories: [python, pytorch, ai, code]
 
 2. 1) faster_rcnn.py 수정
   ~~~python
-  ...
+  ###################
   # 17 line
   __all__ = [
       "FasterRCNN", "fasterrcnn_resnet_fpn", "fasterrcnn_resnet50_fpn", "fasterrcnn_mobilenet_v3_large_320_fpn",
       "fasterrcnn_mobilenet_v3_large_fpn"
   ]
 
-  ...
+  ###################
   # write
   def fasterrcnn_resnet_fpn(net='resnet50', pretrained=False, progress=True,
                             num_classes=91, pretrained_backbone=True, trainable_backbone_layers=None, **kwargs):
@@ -75,15 +75,14 @@ categories: [python, pytorch, ai, code]
 2. 2) mask_rcnn.py 수정
   ~~~python
 
-  ...
+  ###################
   # 13 line
   __all__ = [
       "MaskRCNN", "maskrcnn_resnet_fpn", "maskrcnn_resnet50_fpn",
   ]
 
-  ...
-
-
+  ###################
+  # write
   def maskrcnn_resnet_fpn(net='resnet50', pretrained=False, progress=True,
                           num_classes=91, pretrained_backbone=True, trainable_backbone_layers=None, **kwargs):
       trainable_backbone_layers = _validate_trainable_layers(
