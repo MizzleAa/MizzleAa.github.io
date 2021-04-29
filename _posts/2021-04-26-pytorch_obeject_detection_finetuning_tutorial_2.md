@@ -115,11 +115,11 @@ categories: [python, pytorch, ai, code]
 
 5. Result  
 - image  
-![result_15](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15.png)  
-  
+![result_15](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15.png?raw=true)  
+    
 - masks  
-![result_15_0](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_0.png)  
-![result_15_1](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_1.png)  
-![result_15_2](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_2.png)  
-![result_15_3](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_3.png)  
-![result_15_4](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_4.png)  
+![result_15_0](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_0.png?raw=true)  
+![result_15_1](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_1.png?raw=true)  
+![result_15_2](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_2.png?raw=true)  
+![result_15_3](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_3.png?raw=true)  
+![result_15_4](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_4.png?raw=true)  
