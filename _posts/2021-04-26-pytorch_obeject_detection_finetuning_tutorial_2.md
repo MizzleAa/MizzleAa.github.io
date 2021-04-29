@@ -117,7 +117,7 @@ categories: [python, pytorch, ai, code]
 - image  
 ![result_15](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15.png)  
   
-- masks
+- masks  
 ![result_15_0](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_0.png)  
 ![result_15_1](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_1.png)  
 ![result_15_2](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_2.png)  
