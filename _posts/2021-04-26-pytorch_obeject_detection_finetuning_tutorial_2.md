@@ -11,7 +11,7 @@ categories: [python, pytorch, ai, code]
 
 - faster & mask R-CNN 튜닝  
 
-1. Struct : 프로젝트 구조
+1 Struct : 프로젝트 구조
 ```
 Faster_Mask_RCNN
 | detection
@@ -36,7 +36,7 @@ Faster_Mask_RCNN
 - networks.py : 모델 생성
 - run.py : 실행
 
-2. Setting : 가상환경(venv) 파일 수정
+2 Setting : 가상환경(venv) 파일 수정
 - venv\lib\site-packages\torchvision\models\detection\faster_rcnn.py  
 
 ~~~python
@@ -99,12 +99,12 @@ def maskrcnn_resnet_fpn(net='resnet50', pretrained=False, progress=True,
   from engine => from .engine
 ```
 
-3. [git repository](https://github.com/MizzleAa/Faster_Mask_RCNN)  
-4. Run : python run.py  
-5. Result  
-- image  
+3 [git repository](https://github.com/MizzleAa/Faster_Mask_RCNN)  
+4 Run : python run.py  
+5 Result  
+- image
 ![result_15](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15.png?raw=true)  
-- masks  
+- masks
 ![result_15_0](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_0.png?raw=true)  
 ![result_15_1](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_1.png?raw=true)  
 ![result_15_2](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_2.png?raw=true)  
