@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pytorch obeject detection finetuning tutorial"
+title: "pytorch obeject detection finetuning tutorial 1"
 date: 2021-04-26 23:30:00 +0000
 categories: [python, pytorch, ai, code]
 ---
