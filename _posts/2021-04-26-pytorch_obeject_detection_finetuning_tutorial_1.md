@@ -64,7 +64,6 @@ from vision.references.detection.engine import train_one_epoch, evaluate
 import vision.references.detection.utils as utils
 import vision.references.detection.transforms as T
 
-# 분석 수행중..
 def get_transform(train):
     transforms = []
     # converts the image, a PIL image, into a PyTorch Tensor
