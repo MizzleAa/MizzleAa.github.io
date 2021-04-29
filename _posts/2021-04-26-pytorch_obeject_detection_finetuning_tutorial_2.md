@@ -109,16 +109,14 @@ def maskrcnn_resnet_fpn(net='resnet50', pretrained=False, progress=True,
   from engine => from .engine
 ```
 
-3. git repository
-- [링크](https://github.com/MizzleAa/Faster_Mask_RCNN)
+3. [git repository](https://github.com/MizzleAa/Faster_Mask_RCNN)
 
-4. Run 
-- python run.py
+4. Run : python run.py
 
 5. Result  
 - image  
-  ![result_2](./pytorch_obeject_detection_finetuning_tutorial_2/2.png)  
-
+![result_2](/pytorch_obeject_detection_finetuning_tutorial_2/2.png)  
+  
 - masks
-  ![result_2](./pytorch_obeject_detection_finetuning_tutorial_2/2_0.png)  
-  ![result_2](./pytorch_obeject_detection_finetuning_tutorial_2/2_1.png)  
+![result_2_0](/pytorch_obeject_detection_finetuning_tutorial_2/2_0.png)  
+![result_2_1](/pytorch_obeject_detection_finetuning_tutorial_2/2_1.png)  
