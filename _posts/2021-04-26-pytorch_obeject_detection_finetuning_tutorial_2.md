@@ -15,7 +15,7 @@ categories: [python, pytorch, ai, code]
   
   - faster & mask R-CNN 튜닝
 
-1. Struct
+1. Struct : 프로젝트 구조
   ```
   Faster_Mask_RCNN
   | detection
@@ -41,9 +41,8 @@ categories: [python, pytorch, ai, code]
   - run.py : 실행
 
 
-2. Setting
-  - 가상환경(venv) 파일 수정
-    - venv\lib\site-packages\torchvision\models\detection\faster_rcnn.py  
+2. Setting : 가상환경(venv) 파일 수정
+  - venv\lib\site-packages\torchvision\models\detection\faster_rcnn.py  
 
   ~~~python
   ###################
@@ -68,7 +67,7 @@ categories: [python, pytorch, ai, code]
       return model
   ~~~
 
-    - venv\lib\site-packages\torchvision\models\detection\mask_rcnn.py  
+  - venv\lib\site-packages\torchvision\models\detection\mask_rcnn.py  
 
   ~~~python
 
