@@ -115,8 +115,11 @@ def maskrcnn_resnet_fpn(net='resnet50', pretrained=False, progress=True,
 
 5. Result  
 - image  
-![result_2](/pytorch_obeject_detection_finetuning_tutorial_2/2.png)  
+![result_15](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15.png)  
   
 - masks
-![result_2_0](/pytorch_obeject_detection_finetuning_tutorial_2/2_0.png)  
-![result_2_1](/pytorch_obeject_detection_finetuning_tutorial_2/2_1.png)  
+![result_15_0](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_0.png)  
+![result_15_1](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_1.png)  
+![result_15_2](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_2.png)  
+![result_15_3](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_3.png)  
+![result_15_4](https://github.com/MizzleAa/Faster_Mask_RCNN/blob/main/result/15_4.png)  
