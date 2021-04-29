@@ -48,7 +48,8 @@ categories: [python, pytorch, ai, code]
 
   - import 수정 
 
-2. 1) faster_rcnn.py 수정
+2. 1) faster_rcnn.py 수정  
+
   ~~~python
   ###################
   # 17 line
@@ -72,7 +73,8 @@ categories: [python, pytorch, ai, code]
       return model
   ~~~
 
-2. 2) mask_rcnn.py 수정
+2. 2) mask_rcnn.py 수정  
+
   ~~~python
 
   ###################
