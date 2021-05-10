@@ -4,10 +4,8 @@ title: "python abstract"
 date: 2021-04-18 10:20:00 +0000
 categories: [python, code]
 ---
-
-### Python abstract 정리
-
-#### python : 3.7.5
+#### Python abstract 정리
+##### python : 3.7.5
 
 ---
 

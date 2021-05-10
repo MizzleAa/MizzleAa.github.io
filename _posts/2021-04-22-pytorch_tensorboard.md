@@ -5,13 +5,13 @@ date: 2021-04-22 16:00:00 +0000
 categories: [python, pytorch, tensorboard, ai, code]
 ---
 
-### Pytorch tensorboard
+#### Pytorch tensorboard
 
-#### python : 3.7.5
+##### python : 3.7.5
 
-#### torch : 1.8.1+cu111
+##### torch : 1.8.1+cu111
 
-#### tensorboard : 2.5.0
+##### tensorboard : 2.5.0
 
      - 실행 방법 : tensorboard --logdir=runs
 

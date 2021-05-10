@@ -5,9 +5,9 @@ date: 2021-04-18 10:25:00 +0000
 categories: [python, code]
 ---
 
-### Python built-in function 정리
+#### Python built-in function 정리
 
-#### python : 3.7.5
+##### python : 3.7.5
 
 ---
 

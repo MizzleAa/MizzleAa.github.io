@@ -5,45 +5,45 @@ date: 2021-04-19 21:00:00 +0000
 categories: [python, pytorch, ai, install]
 ---
 
-### Python Pytorch Install with GPU
+#### Python Pytorch Install with GPU
 
-#### python : 3.7.5
+##### python : 3.7.5
 
 - 해당 기준은 python을 기준으로 설치하는 버전입니다.
 - conda를 사용하지 않았으며, 가상환경 생성을 통해 해당 python package를 설치합니다.
 
 ---
 
-#### 1. gpu : <https://en.wikipedia.org/wiki/CUDA#Version_features_and_specifications>
+##### 1. gpu : <https://en.wikipedia.org/wiki/CUDA#Version_features_and_specifications>
 
 - 자기 버전에 맞는 gpu 확인
 
-#### 2. cuda : <https://developer.nvidia.com/cuda-toolkit-archive>
+##### 2. cuda : <https://developer.nvidia.com/cuda-toolkit-archive>
 
 - gpu버전에 해당하는 cuda 설치
 - nvidia-smi : CUDA Version 확인
 
-#### 3. pytorch : <https://pytorch.org/get-started/locally/>
+##### 3. pytorch : <https://pytorch.org/get-started/locally/>
 
 - build 확인, os 확인, package 확인, language 확인
 
-#### 4. 각자 환경에 맞는 버전을 설치
+##### 4. 각자 환경에 맞는 버전을 설치
 
 - 작성자 환경 : stable(1.8.1) > Windows > Pip > Python > CUDA 11.1
   > pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 
-#### 5. 가상환경(venv) 생성
+##### 5. 가상환경(venv) 생성
 
 - 프로잭트 생성 위치 or 가상환경 관리 위치
   > python -m venv venv  
   > venv\Scripts\activate  
   > python -m pip install --upgrade pip
 
-#### 6. 4.의 "pip3 ~" 문구 내용을 콘솔에 붙여 넣기
+##### 6. 4.의 "pip3 ~" 문구 내용을 콘솔에 붙여 넣기
 
 - 완료 때 까지 시간 소요
 
-#### 7. pytorch 동작 확인 예제 코드 : <https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html>
+##### 7. pytorch 동작 확인 예제 코드 : <https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html>
 
 ```python
 
@@ -90,7 +90,7 @@ for t in range(500):
     w2 -= learning_rate * grad_w2
 ```
 
-#### 8. 실행 결과
+##### 8. 실행 결과
 
 > 99 177.5563507080078  
 > 199 0.22159364819526672  

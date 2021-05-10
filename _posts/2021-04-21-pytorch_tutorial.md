@@ -5,11 +5,11 @@ date: 2021-04-21 16:00:00 +0000
 categories: [python, pytorch, ai, code]
 ---
 
-### Pytorch tutorial
+#### Pytorch tutorial
 
-#### python : 3.7.5
+##### python : 3.7.5
 
-#### torch : 1.8.1+cu111
+##### torch : 1.8.1+cu111
 
 ---
 

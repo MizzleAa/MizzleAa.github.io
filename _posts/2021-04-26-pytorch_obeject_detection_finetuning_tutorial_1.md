@@ -5,13 +5,13 @@ date: 2021-04-26 23:30:00 +0000
 categories: [python, pytorch, ai, code]
 ---
 
-### pytorch obeject detection finetuning tutorial
+#### pytorch obeject detection finetuning tutorial
 
-#### python : 3.7.5
+##### python : 3.7.5
 
-#### torch : 1.8.1+cu111
+##### torch : 1.8.1+cu111
 
-#### pycocotools : 2.0.2
+##### pycocotools : 2.0.2
   
   1. 가상환경(venv)에 pycocotools를 설치
 ```

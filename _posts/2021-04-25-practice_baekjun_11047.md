@@ -4,11 +4,11 @@ title: "practice baekjun 11047 - 동전 0"
 date: 2021-04-25 00:42:00 +0000
 categories: [practice, greedy, baekjun]
 ---
-# Practice Greedy 
+#### Practice Greedy 
 
 ---
-## 1. 문제 
-### "동전 0"
+##### 1. 문제 
+##### "동전 0"
 - 색인 : [11047](https://www.acmicpc.net/problem/11047)
 - 풀이 시간 : 12분
 - 문제 :
@@ -43,7 +43,7 @@ categories: [practice, greedy, baekjun]
   6
   ```
 
-## 2. 풀이
+##### 2. 풀이
 ~~~python
 # source code
 '''

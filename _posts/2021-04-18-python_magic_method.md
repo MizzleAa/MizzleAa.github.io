@@ -5,9 +5,9 @@ date: 2021-04-18 10:20:00 +0000
 categories: [python, code]
 ---
 
-### Python Magic Method 정리
+#### Python Magic Method 정리
 
-#### python : 3.7.5
+##### python : 3.7.5
 
 ---
 

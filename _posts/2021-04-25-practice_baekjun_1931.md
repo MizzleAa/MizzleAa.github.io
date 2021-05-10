@@ -4,12 +4,12 @@ title: "practice baekjun 1931 - 회의실 배정"
 date: 2021-04-25 00:40:00 +0000
 categories: [practice, greedy, baekjun]
 ---
-# Practice Greedy 
+#### Practice Greedy 
 
 ---
 
-## 1. 문제 
-### "회의실 배정"
+##### 1. 문제 
+##### "회의실 배정"
 - 색인 : [1931](https://www.acmicpc.net/problem/1931)
 - 풀이 시간 : 1시간(시간 오버)
 - 문제 :
@@ -48,7 +48,7 @@ categories: [practice, greedy, baekjun]
   4
   ```
 
-## 2. 풀이
+##### 2. 풀이
 ~~~python
 '''
 # 알고리즘 사고적 생각 정리

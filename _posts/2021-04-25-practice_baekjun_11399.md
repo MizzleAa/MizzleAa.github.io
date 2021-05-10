@@ -4,11 +4,11 @@ title: "practice baekjun 11399 - ATM"
 date: 2021-04-25 00:44:00 +0000
 categories: [practice, greedy, baekjun]
 ---
-# Practice Greedy 
+#### Practice Greedy 
 
 ---
-## 1. 문제 
-### "ATM"
+##### 1. 문제 
+##### "ATM"
 - 색인 : [11399](https://www.acmicpc.net/problem/11399)
 - 풀이 시간 : 10분
 - 문제 :

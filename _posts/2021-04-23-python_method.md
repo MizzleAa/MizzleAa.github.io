@@ -5,9 +5,9 @@ date: 2021-04-23 18:00:00 +0000
 categories: [python, code]
 ---
 
-### Python method 정리
+#### Python method 정리
 
-#### python : 3.7.5
+##### python : 3.7.5
 
 ---
 
