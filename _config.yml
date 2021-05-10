@@ -1,56 +1,18 @@
-title: MizzleAa
-description: blog
-author: MizzleAa
-github: https://github.com/mizzleaa
-about: Python, AI, Data Scientist, Others, Let's do all we can.!
-disqus_shortname: mizzleaa
-google_analytics: UA-XXXXXXXX-Y
+title: Leaf Blog
+iconURL: assets/default-icon.png
+theme: jekyll-theme-leaf
 
-enableTags: true
-tagarray: []
-
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+# for a clean URL
+permalink: :slug
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/mizzleaa"
+  twitter: _SupunKavinda
+  github: SupunKavinda
 
-share:
-  twitter_username: "" 
-  fb_appid: ""
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
 
-urls:
-    - text: About
-      url: /about/
-    - text: Projects
-      url: /projects/
-    - text: Category
-      url: /category/
-      
-url: "https://mizzleaa.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+### comments & analytics
+hyvor_talk_website_id: 14
+google_analytics: UA-NNNNNNNN-N
